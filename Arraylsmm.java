@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Arraylsmm {
 
 	public static void main(String[] args) {
-		ArrayList<Integer> al1=new ArrayList<>();
+		ArrayList<Integer> al1=new ArrayList();
 		Scanner sc=new Scanner(System.in);
 				System.out.println("Array elements");
 		int a=sc.nextInt();
