@@ -31,7 +31,7 @@ public class FlowerDemo {
           break;
 
       default:
-          System.out.println("Choose continent name");
+          System.out.println("Enter continent name");
           break;
   }
   } 
