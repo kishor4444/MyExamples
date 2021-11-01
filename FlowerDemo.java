@@ -31,7 +31,7 @@ public class FlowerDemo {
           break;
 
       default:
-          System.out.println("Enter continent name");
+          System.out.println("continent");
           break;
   }
   } 
@@ -41,7 +41,7 @@ public static void main(String[] args)
 	Scanner sc = new Scanner(System.in);
 	boolean la = true;
 	do {
-   System.out.println("continent name \n 1 Asia \n 2 Europe \n 3 Africa \n 4 Exit\n");
+   System.out.println("continent name \n 1 (Asia) \n 2 (Europe) \n 3 (Africa) \n 4 (Exit)\n");
     ab = sc.next().charAt(0);
 	 FlowerDemo fd = new FlowerDemo(); 
     FlowerDemo.displayFlowers(ab); 
